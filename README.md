@@ -1,5 +1,5 @@
 
-FAKE STORE APP - README
+# FAKE STORE APP - README
 
 
 Project Name: Fake Store App
@@ -8,7 +8,7 @@ Framework: React + Vite
 Date: January 2026
 
 
-PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
 
 This is a React-based e-commerce application that interacts with the 
@@ -16,7 +16,7 @@ FakeStore API (https://fakestoreapi.com/). The application provides a complete
 product management system with browsing, viewing, adding, editing, and 
 deleting functionality.
 
-FEATURES
+## FEATURES
 
 1. HOME PAGE
    - Landing page with welcome message and navigation
@@ -57,7 +57,7 @@ FEATURES
 10. 404 PAGE
     - Custom "Not Found" page for invalid routes
 
-TECHNOLOGY STACK
+## TECHNOLOGY STACK
 
 FRONTEND FRAMEWORK:
 - React 19.2.0
@@ -81,7 +81,7 @@ DEVELOPMENT TOOLS:
 - @vitejs/plugin-react 5.1.1
 
 
-PROJECT STRUCTURE
+### PROJECT STRUCTURE
 ```
 fakestore-app/
 ├── public/
@@ -111,14 +111,14 @@ fakestore-app/
 ```
 
 
-INSTALLATION
+### INSTALLATION
 
 
 PREREQUISITES:
 - Node.js (version 14 or higher)
 - npm or yarn package manager
 
-STEPS:
+#### STEPS:
 
 1. Clone or download the project
 
@@ -134,7 +134,7 @@ STEPS:
 5. Open your browser and navigate to:
    http://localhost:5173
 
-AVAILABLE SCRIPTS
+## AVAILABLE SCRIPTS
 
 npm run dev
   - Starts the development server with hot module replacement
@@ -155,7 +155,7 @@ API INTEGRATION
 API: FakeStore API
 Base URL: https://fakestoreapi.com
 
-ENDPOINTS USED:
+## ENDPOINTS USED:
 
 GET /products
   - Fetch all products for listing page
@@ -177,8 +177,8 @@ are simulated and don't actually modify the database. They return success
 responses for demonstration purposes.
 
 
-ROUTING STRUCTURE
-
+## ROUTING STRUCTURE
+```
 /                     - Home page
 /about                - About page
 /products             - Product listing page
@@ -187,8 +187,9 @@ ROUTING STRUCTURE
 /edit-product/:id     - Edit product form (dynamic route)
 /delete-product       - Delete product form
 *                     - 404 Not Found page (catch-all)
+```
 
-KEY COMPONENTS EXPLAINED
+## KEY COMPONENTS EXPLAINED
 
 NavigationBar.jsx
   - Main navigation using React Router's Link component
@@ -220,7 +221,7 @@ DeleteProductFunctionality.jsx
   - Callback prop pattern (onDelete)
   - Displays deleted product confirmation
 
-IMPORTANT PATTERNS USED
+## IMPORTANT PATTERNS USED
 
 1. REACT HOOKS:
    - useState: State management
@@ -244,14 +245,14 @@ IMPORTANT PATTERNS USED
    - Loading states: if (!data) return <Loading />
    - Success messages: {success && <Alert />}
 
-STYLING
+## STYLING
 
 - Bootstrap 5.3.8 for responsive layout and components
 - React Bootstrap for React-specific Bootstrap components
 - Custom CSS in App.css and index.css
 - Inline styles for specific component needs
 
-  BROWSER SUPPORT
+## BROWSER SUPPORT
 
 Modern browsers with ES6+ support:
 - Chrome (latest)
@@ -259,7 +260,7 @@ Modern browsers with ES6+ support:
 - Safari (latest)
 - Edge (latest)
 
-FUTURE ENHANCEMENTS
+## FUTURE ENHANCEMENTS
 
 Potential improvements:
 - Shopping cart functionality
@@ -275,7 +276,7 @@ Potential improvements:
 - Image upload capability
 - Real backend integration
 
-TROUBLESHOOTING
+## TROUBLESHOOTING
 
 ISSUE: "Loading product details..." stuck on Add Product page
 SOLUTION: The page should now show a form. If not, check that the
@@ -292,7 +293,7 @@ ISSUE: ESLint errors
 SOLUTION: Run 'npm run lint' to see all errors. Fix or configure ESLint
 rules in eslint.config.js
 
-NOTES
+### NOTES
 
 - This is a demonstration/learning project using a mock API
 - API operations (add, edit, delete) are simulated and don't persist
@@ -300,7 +301,7 @@ NOTES
 - For production use, replace with a real backend API
 
 
-LICENSE & CREDITS
+## LICENSE & CREDITS
 
 FakeStore API: https://fakestoreapi.com/
 React: https://react.dev/
@@ -311,4 +312,4 @@ React Bootstrap: https://react-bootstrap.github.io/
 For questions, issues, or contributions, please refer to the project
 repository or contact the project maintainer.
 
-END OF README
+#### END OF README
