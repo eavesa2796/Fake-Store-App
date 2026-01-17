@@ -311,6 +311,4 @@ React Bootstrap: https://react-bootstrap.github.io/
 For questions, issues, or contributions, please refer to the project
 repository or contact the project maintainer.
 
-================================================================================
-                          END OF README
-================================================================================
+END OF README
