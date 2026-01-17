@@ -1,24 +1,22 @@
-================================================================================
-                        FAKE STORE APP - README
-================================================================================
+
+FAKE STORE APP - README
+
 
 Project Name: Fake Store App
 Version: 0.0.0
 Framework: React + Vite
 Date: January 2026
 
-================================================================================
-                            PROJECT OVERVIEW
-================================================================================
+
+PROJECT OVERVIEW
+
 
 This is a React-based e-commerce application that interacts with the 
 FakeStore API (https://fakestoreapi.com/). The application provides a complete
 product management system with browsing, viewing, adding, editing, and 
 deleting functionality.
 
-================================================================================
-                              FEATURES
-================================================================================
+FEATURES
 
 1. HOME PAGE
    - Landing page with welcome message and navigation
@@ -59,9 +57,7 @@ deleting functionality.
 10. 404 PAGE
     - Custom "Not Found" page for invalid routes
 
-================================================================================
-                          TECHNOLOGY STACK
-================================================================================
+TECHNOLOGY STACK
 
 FRONTEND FRAMEWORK:
 - React 19.2.0
@@ -84,10 +80,9 @@ DEVELOPMENT TOOLS:
 - ESLint 9.39.1
 - @vitejs/plugin-react 5.1.1
 
-================================================================================
-                          PROJECT STRUCTURE
-================================================================================
 
+PROJECT STRUCTURE
+```
 fakestore-app/
 ├── public/
 │   └── images/           - Static image assets
@@ -113,10 +108,11 @@ fakestore-app/
 ├── vite.config.js       - Vite configuration
 ├── eslint.config.js     - ESLint configuration
 └── README.txt           - This file
+```
 
-================================================================================
-                          INSTALLATION
-================================================================================
+
+INSTALLATION
+
 
 PREREQUISITES:
 - Node.js (version 14 or higher)
@@ -138,9 +134,7 @@ STEPS:
 5. Open your browser and navigate to:
    http://localhost:5173
 
-================================================================================
-                          AVAILABLE SCRIPTS
-================================================================================
+AVAILABLE SCRIPTS
 
 npm run dev
   - Starts the development server with hot module replacement
@@ -156,9 +150,7 @@ npm run lint
 npm run preview
   - Preview the production build locally
 
-================================================================================
-                          API INTEGRATION
-================================================================================
+API INTEGRATION
 
 API: FakeStore API
 Base URL: https://fakestoreapi.com
@@ -184,9 +176,8 @@ NOTE: The FakeStore API is a mock API. POST, PUT, and DELETE operations
 are simulated and don't actually modify the database. They return success
 responses for demonstration purposes.
 
-================================================================================
-                          ROUTING STRUCTURE
-================================================================================
+
+ROUTING STRUCTURE
 
 /                     - Home page
 /about                - About page
@@ -197,9 +188,7 @@ responses for demonstration purposes.
 /delete-product       - Delete product form
 *                     - 404 Not Found page (catch-all)
 
-================================================================================
-                          KEY COMPONENTS EXPLAINED
-================================================================================
+KEY COMPONENTS EXPLAINED
 
 NavigationBar.jsx
   - Main navigation using React Router's Link component
@@ -231,9 +220,7 @@ DeleteProductFunctionality.jsx
   - Callback prop pattern (onDelete)
   - Displays deleted product confirmation
 
-================================================================================
-                          IMPORTANT PATTERNS USED
-================================================================================
+IMPORTANT PATTERNS USED
 
 1. REACT HOOKS:
    - useState: State management
@@ -257,18 +244,14 @@ DeleteProductFunctionality.jsx
    - Loading states: if (!data) return <Loading />
    - Success messages: {success && <Alert />}
 
-================================================================================
-                          STYLING
-================================================================================
+STYLING
 
 - Bootstrap 5.3.8 for responsive layout and components
 - React Bootstrap for React-specific Bootstrap components
 - Custom CSS in App.css and index.css
 - Inline styles for specific component needs
 
-================================================================================
-                          BROWSER SUPPORT
-================================================================================
+  BROWSER SUPPORT
 
 Modern browsers with ES6+ support:
 - Chrome (latest)
@@ -276,9 +259,7 @@ Modern browsers with ES6+ support:
 - Safari (latest)
 - Edge (latest)
 
-================================================================================
-                          FUTURE ENHANCEMENTS
-================================================================================
+FUTURE ENHANCEMENTS
 
 Potential improvements:
 - Shopping cart functionality
@@ -294,9 +275,7 @@ Potential improvements:
 - Image upload capability
 - Real backend integration
 
-================================================================================
-                          TROUBLESHOOTING
-================================================================================
+TROUBLESHOOTING
 
 ISSUE: "Loading product details..." stuck on Add Product page
 SOLUTION: The page should now show a form. If not, check that the
@@ -313,28 +292,21 @@ ISSUE: ESLint errors
 SOLUTION: Run 'npm run lint' to see all errors. Fix or configure ESLint
 rules in eslint.config.js
 
-================================================================================
-                          NOTES
-================================================================================
+NOTES
 
 - This is a demonstration/learning project using a mock API
 - API operations (add, edit, delete) are simulated and don't persist
 - The FakeStore API returns fake success responses but doesn't modify data
 - For production use, replace with a real backend API
 
-================================================================================
-                          LICENSE & CREDITS
-================================================================================
+
+LICENSE & CREDITS
 
 FakeStore API: https://fakestoreapi.com/
 React: https://react.dev/
 Vite: https://vite.dev/
 Bootstrap: https://getbootstrap.com/
 React Bootstrap: https://react-bootstrap.github.io/
-
-================================================================================
-                          CONTACT & SUPPORT
-================================================================================
 
 For questions, issues, or contributions, please refer to the project
 repository or contact the project maintainer.
